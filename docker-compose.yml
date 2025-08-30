@@ -3,7 +3,7 @@ version: '3.9'
 services:
   app:
     image: node:20
-    container_name: vue-app
+    container_name: front-pjc-desaparecidos
     working_dir: /usr/src/app
     volumes:
       - .:/usr/src/app
