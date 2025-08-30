@@ -1,4 +1,4 @@
-# 📊 PCJ - GEIA - Pessoas desaparecidas
+# 📊 PJC - GEIA - Pessoas desaparecidas
 
 Este projeto é um painel administrativo desenvolvido para visualização e análise de ocorrências de pessoas desaparecidas, integrando-se com a **API de pessoas desaparecidas.** da PCJ - MT.
 
