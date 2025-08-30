@@ -45,7 +45,7 @@ http://localhost:5173
 Você também pode rodar a aplicação usando **Docker Compose**, sem precisar instalar Node.js localmente:
 
 ```bash
-docker-compose up app
+docker-compose up
 ```
 
 A aplicação estará disponível em:
