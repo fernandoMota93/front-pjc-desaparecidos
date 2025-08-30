@@ -17,10 +17,10 @@ Clone o repositório e instale as dependências:
 
 ```bash
 # Clonar repositório
-git clone https://github.com/seu-usuario/abitus-dashboard.git
+git clone https://github.com/fernandoMota93/front-pjc-desaparecidos
 
 # Entrar na pasta
-cd abitus-dashboard
+cd front-pjc-desaparecidos
 
 # Instalar dependências
 npm install
