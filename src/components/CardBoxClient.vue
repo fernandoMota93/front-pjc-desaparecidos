@@ -43,8 +43,8 @@ const props = defineProps({
   },
   photo: {
     type: String,
-    default: null
-  }
+    default: null,
+  },
 })
 
 const formattedDate = formatDate(props.date)
@@ -87,7 +87,7 @@ const pillText = computed(() => {
 const goToDetails = () => {
   router.push({
     name: 'detalhe',
-    params: { id: props.id }
+    params: { id: props.id },
   })
 }
 </script>
@@ -109,7 +109,14 @@ const goToDetails = () => {
         <PillTag :color="pillType" :label="pillText" :icon="pillIcon" />
 
         <!-- Botão com seta -->
-        <BaseButton @click="goToDetails" :icon="mdiArrowRight" color="info" small rounded-full class="ml-2" />
+        <BaseButton
+          @click="goToDetails"
+          :icon="mdiArrowRight"
+          color="info"
+          small
+          rounded-full
+          class="ml-2"
+        />
       </div>
     </BaseLevel>
   </CardBox>
