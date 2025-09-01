@@ -26,7 +26,7 @@ createApp(App).use(router).use(pinia).mount('#app')
 // }
 
 // Default title tag
-const defaultDocumentTitle = 'PCJ - GEIA - Pessoas desaparecidas'
+const defaultDocumentTitle = 'PJC - GEIA - Pessoas desaparecidas'
 
 // Set document title from route meta
 router.afterEach((to) => {
